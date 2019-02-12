@@ -30,32 +30,9 @@
   text-align: center;
 }
 
-/* Style the image inside the centered container, if needed */
-.centered img {
-  width: 150px;
-  border-radius: 50%;
-}
 
-h1 {
-	color: pink;
-	font-size: 60px;
-	font-family: 'Arial', sans-serif;
-}
+
 p {
 	font-family:"Montserrat, sans-serif;
 }
-ul{
-	background: #00BAD6;
-	padding: 10px;
-}
-li {
-	display: inline;
-	margin:20px;
-}
-.black-title{
-	color:black;
-}
-.container{
-	width:50%;
-	margin:0 auto;
-}
+
