@@ -6,33 +6,70 @@
   z-index: 1;
   top: 0;
   overflow-x: hidden;
-  padding-top: 20px;
-}
+  padding-top: 100px;
+    }
 
 /* Control the left side */
 .left {
   left: 0;
-  background-color: white;
+background-color: pink;
+    text-align:left;
 }
 
 /* Control the right side */
 .right {
   right: 0;
-  background-color: pink;
+background-color: white;
+    text-align:right;
 }
 
-/* If you want the content centered horizontally and vertically */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+
+h1{
+  font-family: fantasy;
+  font-size:70pt;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
   text-align: center;
+  background-color: #f1f1f1;
 }
 
-
-
-p {
-	font-family:"Montserrat, sans-serif;
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
 }
+
 
