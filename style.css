@@ -23,10 +23,19 @@ background-color: white;
     text-align:right;
 }
 
+.left-text {
+    text-align:left;
+}
+
+/* Control the right side */
+.right-text {
+    text-align:right;
+}
+
 
 
 h1{
-  font-family: fantasy;
+  font-family: 'Muli', sans-serif;
   font-size:70pt;
 }
 
@@ -43,6 +52,7 @@ body {
   float: left;
   width: 25%;
   padding: 0 10px;
+
 }
 
 /* Remove extra left and right margins, due to padding in columns */
@@ -53,6 +63,7 @@ body {
   content: "";
   display: table;
   clear: both;
+
 }
 
 /* Style the counter cards */
