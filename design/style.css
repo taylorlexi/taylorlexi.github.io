@@ -97,6 +97,7 @@ a:hover{
   }
   h3, .h3 {
   font-size: 1.75rem;
+	    font-family: 'Merriweather Sans', sans-serif;
 }
  .container {
     min-width: 992px !important;
