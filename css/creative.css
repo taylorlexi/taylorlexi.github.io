@@ -386,7 +386,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 2rem;
-  padding-bottom:75px;
+  padding-bottom:55px;
 }
 
 h3, .h3 {
@@ -10595,8 +10595,15 @@ hr.light {
 }
 
 .page-section {
-  padding: 5rem 0;
+  padding: 3rem 0;
   padding-bottom: 10rem 0;
+}
+section#contact.page-section{
+  background-color:#C8C8C8;
+
+}
+section#work.page-section{
+  padding-bottom:5%
 }
 
 #mainNav {
