@@ -4589,6 +4589,10 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  font-size: 0.9rem;
+   padding: 0.75rem 0;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -4607,6 +4611,7 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-item {
   margin-bottom: -1px;
+ 
 }
 
 .nav-tabs .nav-link {
@@ -4711,6 +4716,9 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -4941,6 +4949,7 @@ input[type="button"].btn-block {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
+
   }
   .navbar-expand-xl .navbar-nav {
     -webkit-box-orient: horizontal;
@@ -4986,6 +4995,7 @@ input[type="button"].btn-block {
 .navbar-expand > .container-fluid {
   padding-right: 0;
   padding-left: 0;
+
 }
 
 .navbar-expand .navbar-nav {
@@ -5002,6 +5012,7 @@ input[type="button"].btn-block {
 .navbar-expand .navbar-nav .nav-link {
   padding-right: 0.5rem;
   padding-left: 0.5rem;
+
 }
 
 .navbar-expand > .container,
@@ -5027,7 +5038,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgb(0, 191, 255);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -5035,7 +5046,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgb(0, 191, 255);
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
@@ -5047,6 +5058,7 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
   color: rgba(0, 0, 0, 0.9);
+
 }
 
 .navbar-light .navbar-toggler {
@@ -5067,7 +5079,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgb(0, 191, 255);
 }
 
 .navbar-dark .navbar-brand {
@@ -5075,7 +5087,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+  color: rgb(0, 191, 255);
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -5083,7 +5095,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgb(0, 191, 255);
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
@@ -5115,7 +5127,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-  color: #fff;
+  color:rgb(0, 191, 255);
 }
 
 .card {
