@@ -106,9 +106,9 @@ a:hover{
 
  .col-lg-4 {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 17%;
-    flex: 0 0 17%;
-    max-width: 17%;
+    -ms-flex: 0 0 12%;
+    flex: 0 0 12%;
+    max-width: 12%;
     float:left;
     padding:7px;
   }
